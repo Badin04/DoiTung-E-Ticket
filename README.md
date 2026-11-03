@@ -1,5 +1,10 @@
 # DoiTung E-Ticket Prototype + ESP32 LCD
 
+## Live Demo
+**Available at your primary URL:** [https://doitung-e-ticket.onrender.com](https://doitung-e-ticket.onrender.com)
+
+> This is an unofficial prototype. Demo payment only; it is not an official DoiTung ticketing channel.
+
 เว็บต้นแบบขายบัตรเข้าชมดอยตุงแบบอัตโนมัติ พร้อม:
 - หน้าเว็บจองบัตรสไตล์ใช้งานจริง
 - ชำระเงินจำลอง
