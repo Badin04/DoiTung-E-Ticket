@@ -25,7 +25,12 @@ const token = length => randomBytes(length).toString('hex').toUpperCase();
 
 function createApp(options={}) {
   const isProd = options.production ?? process.env.NODE_ENV === 'production';
-  const demoPayment = !isProd && (options.demoPayment ?? process.env.ENABLE_DEMO_PAYMENT !== 'false');
+  const demoPayment = options.demoPayment ?? (
+  !isProd
+    ? process.env.ENABLE_DEMO_PAYMENT !== 'false'
+    : process.env.ENABLE_DEMO_PAYMENT === 'true' &&
+      process.env.ALLOW_DEMO_PAYMENT_IN_PRODUCTION === 'true'
+);
   const adminPass = options.adminPassword ?? process.env.ADMIN_PASSWORD ?? (isProd ? '' : 'Admin@12345');
   const staffPass = options.staffPassword ?? process.env.STAFF_PASSWORD ?? (isProd ? '' : 'Staff@12345');
   if (!adminPass || !staffPass || (isProd && (adminPass.length < 12 || staffPass.length < 12)))
