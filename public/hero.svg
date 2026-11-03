@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d8e6d6"/><stop offset=".65" stop-color="#edf2e4"/><stop offset="1" stop-color="#ebdfc7"/></linearGradient>
+  <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#6e997d"/><stop offset="1" stop-color="#355a4e"/></linearGradient>
+  <linearGradient id="front" x2="0" y2="1"><stop stop-color="#507960"/><stop offset="1" stop-color="#234e3c"/></linearGradient>
+  <radialGradient id="sun"><stop stop-color="#f4e8b5" stop-opacity=".95"/><stop offset="1" stop-color="#f4e8b5" stop-opacity="0"/></radialGradient>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".45" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".04"/></feComponentTransfer></filter>
+</defs>
+<rect width="800" height="700" fill="url(#sky)"/>
+<circle cx="580" cy="148" r="180" fill="url(#sun)"/><circle cx="580" cy="148" r="79" fill="#f5eac5" opacity=".75"/>
+<g fill="#ffffff" opacity=".42"><path d="M100 150c50-29 83-14 114-12 39 2 66-10 109 11-55 13-170 17-223 1z"/><path d="M500 248c40-17 87-15 119-6 36 10 60-4 92 12-64 18-168 15-211-6z"/></g>
+<path d="M0 385 75 332 148 356 243 252 323 330 420 219 538 349 630 262 800 396V700H0Z" fill="#b3c7ad"/>
+<path d="M0 432 112 365 235 405 330 333 413 382 509 299 641 407 724 331 800 382V700H0Z" fill="#8fab93"/>
+<path d="M0 491 96 431 202 454 327 383 441 447 540 400 664 459 768 382 800 406V700H0Z" fill="url(#hill)"/>
+<path d="M0 570 111 481 238 535 370 450 521 508 642 445 800 532V700H0Z" fill="url(#front)"/>
+<path d="M0 639c127-46 207-49 315-29 109 21 228-44 315-42 74 2 114 27 170 34v98H0z" fill="#214a3b"/>
+<!-- stylised royal villa roof and structure -->
+<g transform="translate(375 372)">
+<path d="M-88 92h229v123H-88z" fill="#e2cbaa"/>
+<path d="M-107 92 28 32l137 60z" fill="#6e5945"/>
+<path d="M-76 101 28 54l112 47z" fill="#9a7154"/>
+<path d="M-120 101h293v12h-293z" fill="#4f483e"/>
+<path d="M-60 116h61v99h-61zM52 116h61v99H52z" fill="#efe0c2"/>
+<path d="M-49 130h39v45h-39zM62 130h40v45H62z" fill="#345a54"/>
+<path d="M4 121h45v94H4z" fill="#c5a580"/>
+<path d="M10 136h34v79H10z" fill="#426b58"/>
+<path d="M-105 216h274v14h-274z" fill="#9b7b5b"/>
+</g>
+<!-- foreground foliage -->
+<g fill="#163c30">
+<path d="M51 700V515h12V700zM26 536l30-94 33 94zM16 585l40-112 46 112z"/>
+<path d="M696 700V485h13V700zM670 535l33-109 35 109zM657 598l45-116 49 116z"/>
+<path d="M752 700V565h11V700zM727 583l31-85 36 85zM718 635l41-98 41 98z"/>
+</g>
+<g opacity=".65" fill="#8caa7b"><ellipse cx="164" cy="642" rx="56" ry="18"/><ellipse cx="280" cy="656" rx="45" ry="15"/><ellipse cx="593" cy="665" rx="52" ry="12"/></g>
+<rect width="800" height="700" filter="url(#grain)" opacity=".42"/>
+</svg>

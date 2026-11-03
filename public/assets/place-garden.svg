@@ -1,0 +1,22 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700' viewBox='0 0 1200 700'>
+  <defs>
+    <linearGradient id='sky' x1='0' x2='0' y1='0' y2='1'><stop offset='0%' stop-color='#ddf6ff'/><stop offset='100%' stop-color='#99d7bf'/></linearGradient>
+  </defs>
+  <rect width='1200' height='700' fill='url(#sky)'/>
+  <path d='M0 380 C200 320 310 300 470 360 S870 410 1200 320 V700 H0 Z' fill='#6ea871'/>
+  <path d='M0 450 C180 420 350 390 570 455 S940 505 1200 430 V700 H0 Z' fill='#5d944d'/>
+  <path d='M0 545 C210 490 390 520 560 560 S900 610 1200 560 V700 H0 Z' fill='#7fb167'/>
+  <path d='M520 380 C620 340 680 340 800 390' fill='none' stroke='#f5ead0' stroke-width='22' stroke-linecap='round'/>
+  <path d='M550 405 C660 370 715 372 780 416' fill='none' stroke='#fffaf0' stroke-width='8' stroke-linecap='round'/>
+  <g>
+    <g transform='translate(120 470)'><circle cx='0' cy='0' r='36' fill='#ee6f8d'/><circle cx='55' cy='0' r='36' fill='#f8b146'/><circle cx='110' cy='0' r='36' fill='#c36df0'/><rect x='52' y='32' width='8' height='88' fill='#3f7a43'/></g>
+    <g transform='translate(250 555)'><circle cx='0' cy='0' r='32' fill='#ff7378'/><circle cx='50' cy='0' r='32' fill='#ffd45c'/><circle cx='100' cy='0' r='32' fill='#8ec5ff'/><rect x='47' y='29' width='8' height='84' fill='#3f7a43'/></g>
+    <g transform='translate(780 490)'><circle cx='0' cy='0' r='34' fill='#ffa3a8'/><circle cx='55' cy='0' r='34' fill='#f1c95e'/><circle cx='110' cy='0' r='34' fill='#bd81f4'/><rect x='52' y='31' width='8' height='86' fill='#3f7a43'/></g>
+    <g transform='translate(925 560)'><circle cx='0' cy='0' r='28' fill='#ff7d81'/><circle cx='44' cy='0' r='28' fill='#ffd15d'/><circle cx='88' cy='0' r='28' fill='#82d6ff'/><rect x='40' y='24' width='8' height='72' fill='#3f7a43'/></g>
+  </g>
+  <g fill='#2e6a3b'>
+    <circle cx='195' cy='300' r='80'/><rect x='182' y='300' width='26' height='118' rx='13' fill='#6a5237'/>
+    <circle cx='1030' cy='290' r='90'/><rect x='1015' y='290' width='30' height='130' rx='15' fill='#6a5237'/>
+  </g>
+  <text x='76' y='92' font-family='Arial, sans-serif' font-size='38' fill='#ffffff' opacity='.95'>Mae Fah Luang Garden</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700' viewBox='0 0 1200 700'>
+  <defs>
+    <linearGradient id='sky' x1='0' x2='0' y1='0' y2='1'><stop offset='0%' stop-color='#d9f2ec'/><stop offset='100%' stop-color='#88bea7'/></linearGradient>
+  </defs>
+  <rect width='1200' height='700' fill='url(#sky)'/>
+  <path d='M0 355 C180 260 350 275 530 340 S905 430 1200 305 V700 H0 Z' fill='#7daf88'/>
+  <path d='M0 425 C210 320 380 360 560 415 S900 505 1200 395 V700 H0 Z' fill='#3d6f58'/>
+  <path d='M0 520 C180 455 360 475 580 555 S955 625 1200 540 V700 H0 Z' fill='#204839'/>
+  <path d='M420 458 C495 403 560 390 650 414 S790 500 845 560' fill='none' stroke='#f4ecd0' stroke-width='24' stroke-linecap='round'/>
+  <path d='M430 462 C525 420 592 423 670 450 S765 512 814 552' fill='none' stroke='#fffaf0' stroke-width='8' stroke-linecap='round'/>
+  <g>
+    <g fill='#295542'><circle cx='175' cy='310' r='74'/><rect x='163' y='310' width='24' height='136' rx='12' fill='#5e4730'/></g>
+    <g fill='#2f634c'><circle cx='340' cy='245' r='92'/><rect x='325' y='245' width='30' height='160' rx='15' fill='#6a4e32'/></g>
+    <g fill='#2d5846'><circle cx='930' cy='272' r='86'/><rect x='916' y='272' width='28' height='150' rx='14' fill='#6a4e32'/></g>
+    <g fill='#366f56'><circle cx='1045' cy='342' r='70'/><rect x='1033' y='342' width='24' height='128' rx='12' fill='#6a4e32'/></g>
+  </g>
+  <text x='70' y='92' font-family='Arial, sans-serif' font-size='38' fill='#ffffff' opacity='.95'>Mae Fah Luang Arboretum</text>
+</svg>

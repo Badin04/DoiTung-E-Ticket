@@ -1,0 +1,21 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700' viewBox='0 0 1200 700'>
+  <defs>
+    <linearGradient id='sky' x1='0' x2='0' y1='0' y2='1'><stop offset='0%' stop-color='#daf0ff'/><stop offset='100%' stop-color='#8bb8d1'/></linearGradient>
+    <linearGradient id='glass' x1='0' x2='1'><stop offset='0%' stop-color='#dfeef8'/><stop offset='100%' stop-color='#a5c8d8'/></linearGradient>
+  </defs>
+  <rect width='1200' height='700' fill='url(#sky)'/>
+  <path d='M0 410 C240 330 440 350 600 380 S960 430 1200 360 V700 H0 Z' fill='#6aa07c'/>
+  <path d='M0 500 C220 430 430 445 650 510 S960 575 1200 495 V700 H0 Z' fill='#3e6d56'/>
+  <rect x='330' y='245' width='540' height='290' rx='28' fill='#f5f8fa'/>
+  <rect x='355' y='270' width='490' height='240' rx='16' fill='url(#glass)'/>
+  <path d='M330 245 L440 170 H760 L870 245 Z' fill='#f8fbff'/>
+  <path d='M355 270 L445 205 H755 L845 270 Z' fill='#b8d4e2'/>
+  <g stroke='#f4fbff' stroke-width='6' opacity='.95'>
+    <path d='M430 285 V505'/><path d='M535 285 V505'/><path d='M640 285 V505'/><path d='M745 285 V505'/>
+    <path d='M370 360 H830'/><path d='M370 430 H830'/>
+  </g>
+  <circle cx='575' cy='390' r='48' fill='#f9fcff'/><path d='M575 352 L587 380 L617 382 L593 401 L602 430 L575 414 L548 430 L557 401 L533 382 L563 380 Z' fill='#f8c65a'/>
+  <circle cx='222' cy='290' r='72' fill='#40735e'/><rect x='210' y='290' width='24' height='112' rx='12' fill='#785843'/>
+  <circle cx='985' cy='305' r='82' fill='#40735e'/><rect x='971' y='305' width='28' height='122' rx='14' fill='#785843'/>
+  <text x='74' y='94' font-family='Arial, sans-serif' font-size='38' fill='#ffffff' opacity='.95'>Hall of Inspiration</text>
+</svg>

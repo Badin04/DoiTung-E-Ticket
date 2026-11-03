@@ -1,0 +1,24 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700' viewBox='0 0 1200 700'>
+  <defs>
+    <linearGradient id='sky' x1='0' x2='0' y1='0' y2='1'><stop offset='0%' stop-color='#dff4ee'/><stop offset='100%' stop-color='#8bc3b1'/></linearGradient>
+    <linearGradient id='mount' x1='0' x2='1'><stop offset='0%' stop-color='#45785f'/><stop offset='100%' stop-color='#204636'/></linearGradient>
+  </defs>
+  <rect width='1200' height='700' fill='url(#sky)'/>
+  <circle cx='1010' cy='118' r='56' fill='#fff6c8'/>
+  <path d='M0 370 C140 280 230 290 360 340 S610 390 760 330 S1040 230 1200 320 V700 H0 Z' fill='#7bb09b'/>
+  <path d='M0 440 C180 310 330 365 455 435 S750 480 930 390 S1120 350 1200 410 V700 H0 Z' fill='url(#mount)' opacity='.95'/>
+  <path d='M0 520 C170 445 320 475 430 525 S720 600 910 535 S1080 505 1200 560 V700 H0 Z' fill='#173c2f'/>
+  <rect x='335' y='290' width='530' height='260' rx='18' fill='#f8efe1'/>
+  <rect x='355' y='315' width='490' height='215' rx='10' fill='#fffaf0'/>
+  <path d='M300 315 L600 170 L900 315 Z' fill='#7b503f'/>
+  <path d='M340 315 L600 195 L860 315 Z' fill='#96604a'/>
+  <rect x='560' y='395' width='85' height='135' rx='6' fill='#6f4c3b'/>
+  <rect x='400' y='380' width='90' height='90' rx='8' fill='#bcd3c7'/>
+  <rect x='710' y='380' width='90' height='90' rx='8' fill='#bcd3c7'/>
+  <g fill='#305f4a'>
+    <circle cx='210' cy='422' r='76'/><rect x='197' y='422' width='26' height='110' rx='12' fill='#76553c'/>
+    <circle cx='1000' cy='422' r='76'/><rect x='987' y='422' width='26' height='110' rx='12' fill='#76553c'/>
+  </g>
+  <path d='M0 600 C130 560 290 540 470 590 S760 640 940 595 S1110 565 1200 600 V700 H0 Z' fill='#8fc18d'/>
+  <text x='72' y='90' font-family='Arial, sans-serif' font-size='38' fill='#ffffff' opacity='.95'>Royal Villa</text>
+</svg>
